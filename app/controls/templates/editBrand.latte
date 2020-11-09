@@ -1,0 +1,17 @@
+<!-- Modal Structure -->
+<div id="edit-brand" class="modal">
+    {form form}
+        <div class="modal-content">
+            <h4 id="edit-brand-header">New Brand</h4>
+            <ul class=error n:ifcontent>
+                <li n:foreach="$form->ownErrors as $error">{$error}</li>
+            </ul>
+            {label name}{/label}
+            {input name}
+        </div>
+        <div class="modal-footer">
+            {input bid}
+            {input save, "class" => "waves-effect blue darken-2 waves-light btn"}
+        </div>
+    {/form}
+</div>
