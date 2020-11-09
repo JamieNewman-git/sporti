@@ -1,0 +1,15 @@
+{block content}
+<table>
+    <thead>
+        <tr class="card-panel">
+            <th class="row"><i class="material-icons">arrow_back</i>Brands</th>
+        </tr>
+    </thead>
+</table>
+<div class="col s12">
+    <a n:href="new!, $limit, $first, $sort" class="waves-effect blue darken-2 waves-light btn">+ Add Brand</a>
+    {$grid|noescape}
+</div>
+{snippet branForm}
+    {control brandForm}
+{/snippet}
