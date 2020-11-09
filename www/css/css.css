@@ -1,0 +1,199 @@
+/* line 12, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+body {
+  background-color: #e2e2e2;
+  color: black;
+}
+
+/* line 16, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.card-panel {
+  font-size: 20px;
+  color: white;
+  border-radius: 0px;
+}
+
+/* line 21, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+tr.card-panel .material-icons {
+  padding-right: 10px;
+}
+
+/* line 24, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.btn-block a {
+  color: white;
+}
+
+/* line 27, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.pagination li.active {
+  color: black !important;
+  background: transparent;
+  border-bottom: 2px solid #1976D2;
+}
+
+/* line 32, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.pagination li.active a {
+  color: black !important;
+}
+
+/* line 35, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.pagination li:hover {
+  border-bottom: 2px solid #1976D2;
+}
+
+/* line 38, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.container a.btn {
+  margin: 12px;
+}
+
+/* line 41, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+a .badge:hover {
+  background-color: #1976D2;
+  color: white;
+}
+
+/* line 45, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.container .row {
+  background-color: #1976D2;
+  color: white;
+}
+
+/* line 49, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.container div.s12 {
+  margin: 16px;
+  padding: 12px;
+  background-color: white;
+}
+
+/* line 54, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.grid thead .card-panel {
+  background-color: #eee;
+  box-shadow: none;
+  border: 1px solid #e2e2e2;
+}
+
+/* line 59, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.grid thead .card-panel .row {
+  background-color: #eee;
+  color: black;
+}
+
+/* line 63, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.grid thead .card-panel * {
+  color: gray;
+}
+
+/* line 66, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.s12 .row {
+  background-color: white;
+  color: black;
+}
+
+/* line 70, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.controls .row {
+  background-color: white;
+  color: black;
+}
+
+/* line 74, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.noBorderBottom {
+  border-bottom: 0 !important;
+}
+
+/* line 77, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.grid {
+  border: 1px solid #e2e2e2;
+}
+
+/* line 80, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.container {
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* line 85, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+body {
+  margin-top: 0;
+}
+
+/* line 88, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.actionButton {
+  color: gray !important;
+  text-transform: capitalize;
+}
+
+/* line 92, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.actionButton:hover {
+  text-decoration: underline;
+}
+
+/* line 95, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.grid tr th:last-child, .grid tr td:last-child {
+  text-align: right;
+}
+
+/* line 98, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.row .btn-block.col:first-child {
+  padding-right: 0 !important;
+}
+
+/* line 99, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.row .btn-block.col:last-child {
+  padding-left: 0 !important;
+}
+
+/* line 100, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.btn-block.col .material-icons {
+  padding: 0 !important;
+}
+
+/* line 101, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.modal-footer i.darken-2.blue {
+  padding: 0 !important;
+}
+
+/* line 102, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.blue.darken-2 .waves-button-input {
+  color: white;
+  width: 100%;
+  padding: 10px 20px !important;
+}
+
+/* line 103, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #1976D2;
+  -webkit-box-shadow: 0 1px 0 0 #1976D2;
+  box-shadow: 0 1px 0 0 #1976D2;
+}
+
+/* line 108, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.flashes {
+  position: absolute;
+  z-index: 10;
+  right: 10px;
+  top: 10px;
+}
+
+/* line 114, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.alert {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 121, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.alert-success {
+  background: #d4edda;
+}
+
+/* line 124, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.alert-warning {
+  background: #fff3cd;
+}
+
+/* line 127, ../../../../../Apps/xampp/webdav/sportisimo/www/sass/scss/css.scss */
+.alert-error {
+  background: #f8d7da;
+}
+
+/*# sourceMappingURL=css.css.map */

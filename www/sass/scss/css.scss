@@ -1,0 +1,129 @@
+$palette1: black;
+$palette2: #1976D2;
+$palette3: white;
+$palette4: #e2e2e2;
+$palette5: gray;
+$palette6: #eee;
+$palette7: #d4edda;
+$palette8: #fff3cd;
+$palette9: #f8d7da;
+$font-size: 20px;
+
+body {
+  background-color: $palette4;
+  color: $palette1;
+}
+.card-panel {
+  font-size: $font-size;
+  color: $palette3;
+  border-radius: 0px;
+}
+tr.card-panel .material-icons {
+  padding-right: 10px;
+}
+.btn-block a {
+  color: $palette3;
+}
+.pagination li.active {
+  color: $palette1 !important;
+  background: transparent;
+  border-bottom: 2px solid $palette2;
+}
+.pagination li.active a {
+  color: $palette1 !important;
+}
+.pagination li:hover {
+  border-bottom: 2px solid $palette2;
+}
+.container a.btn {
+  margin: 12px;
+}
+a .badge:hover {
+  background-color: $palette2;
+  color: $palette3;
+}
+.container .row {
+  background-color: $palette2;
+  color: $palette3;
+}
+.container div.s12 {
+  margin: 16px;
+  padding: 12px;
+  background-color: $palette3;
+}
+.grid thead .card-panel {
+  background-color: $palette6;
+  box-shadow: none;
+  border: 1px solid $palette4;
+}
+.grid thead .card-panel .row {
+  background-color: $palette6;
+  color: $palette1;
+}
+.grid thead .card-panel * {
+  color: $palette5;
+}
+.s12 .row {
+  background-color: $palette3;
+  color: $palette1;
+}
+.controls .row {
+  background-color: $palette3;
+  color: $palette1;
+}
+.noBorderBottom {
+  border-bottom: 0 !important;
+}
+.grid {
+  border: 1px solid $palette4;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+body {
+  margin-top: 0;
+}
+.actionButton {
+  color: $palette5 !important;
+  text-transform: capitalize;
+}
+.actionButton:hover {
+  text-decoration: underline;
+}
+.grid tr th:last-child, .grid tr td:last-child {
+  text-align: right;
+}
+.row .btn-block.col:first-child { padding-right: 0 !important; }
+.row .btn-block.col:last-child { padding-left: 0 !important; }
+.btn-block.col .material-icons { padding: 0 !important; }
+.modal-footer i.darken-2.blue { padding: 0 !important; }
+.blue.darken-2 .waves-button-input { color: $palette3; width: 100%; padding: 10px 20px !important; }
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid $palette2;
+  -webkit-box-shadow: 0 1px 0 0 $palette2;
+  box-shadow: 0 1px 0 0 $palette2;
+}
+.flashes {
+  position: absolute;
+  z-index: 10;
+  right: 10px;
+  top: 10px;
+}
+.alert {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.alert-success {
+  background: $palette7;
+}
+.alert-warning {
+  background: $palette8;
+}
+.alert-error {
+  background: $palette9;
+}
